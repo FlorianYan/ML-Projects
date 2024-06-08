@@ -15,5 +15,5 @@ We first extract the embeddings for the dataset using a pretrained vision model,
 We transform the input images in order to pass them to RESNET50 and extract the embeddings from the fully connected layer. Here we used RESNET50 with default weights.
 ### Model selection and training
 We tested different Multilayer Perceptron's (MLP's) using Stochastic Gradient Descend (SGD) and BCEWithLogitsLoss for optimization. 
-We specifically chose BCEWithLogitsLoss, which combines a signmoid layer with the Binary Cross-Entropy Loss (BCELoss), as it possesses more numerically stable properties than combining them separately.
+We specifically choose BCEWithLogitsLoss, which combines a signmoid layer with the Binary Cross-Entropy Loss (BCELoss), as it possesses more numerically stable properties than combining them separately.
 To avoid exploding or vanishing gradients, we experiemented with LeakyRelu and Batch Normalizations.
