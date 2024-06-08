@@ -14,4 +14,4 @@ We use Hugging Face libraries to obtain the pretrained transformer ALBERT, a lit
 More sophistcated models such as BERT-large or Open AI's GPT-2 are not needed as we balance tradeoffs between model performance and computational cost.
 ### Model Selection and Training
 We trained a 4 layer MLP using the ADAM optimization algorithm and the MSE loss.
-o avoid overfitting, we applied regularization techniques including Dropout and Batch Normalization.
+To avoid overfitting, we applied regularization techniques including Dropout and Batch Normalization.
