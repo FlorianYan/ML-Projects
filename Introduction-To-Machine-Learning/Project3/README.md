@@ -5,7 +5,7 @@ It involves analyzing a dataset of images of 10,000 dishes and a set of triplets
 The task requires predicting for each triplet (A, B, C) whether dish A is more similar in taste to dish B or C based on their images. 
 Output 1, if A is tastes more similar to B, output 0, if A tastes more similar to C.
 ## Data
-- **Images**: 10 000 images of different dishes.
+- **Images**: 10 000 images of different dishes (not included here).
 - **Train Triplets (`train_triplets.txt`)**: Human annotated triplets indicating which two dishes are more similar in taste to each other.
 - **Test Triplets (`test_triplets.txt`)**: Triplets for which predictions of taste similarity need to be made.
 
