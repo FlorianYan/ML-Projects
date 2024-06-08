@@ -4,7 +4,9 @@ In this project, given a dataset containing the review's title and its content, 
 We use Natural Language Processing (NLP) models for this task.
 
 ## Data
-`train.csv`contains the training data with title text, content text and score (between 0 and 10).
+- `train.csv` contains the training data with title text, content text and score (between 0 and 10).
+- `test_no_score.csv` contains the test data with title text and content text
+- `result.txt` contains the corresponding score predictions
 
 ## Implementation
 We pass the input (title and content) using  pretrained transformers in order to extract embeddings. 
