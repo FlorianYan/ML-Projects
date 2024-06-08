@@ -8,6 +8,7 @@ Output 1, if A is tastes more similar to B, output 0, if A tastes more similar t
 - **Images**: 10 000 images of different dishes (not included here).
 - **Train Triplets (`train_triplets.txt`)**: Human annotated triplets indicating which two dishes are more similar in taste to each other.
 - **Test Triplets (`test_triplets.txt`)**: Triplets for which predictions of taste similarity need to be made.
+- `results.txt` contains the predictions for each test triplet.
 
 ## Implementation
 We first extract the embeddings for the dataset using a pretrained vision model, before training a MLP on top. We make heavy use of the `PyTorch`library.
