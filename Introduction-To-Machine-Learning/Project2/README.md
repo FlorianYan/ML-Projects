@@ -4,7 +4,9 @@ In this project, we aim to predict electricity prices in Switzerland using data 
 It tackles common data preprocessing challenges such as handling missing data and dataset noise.
 
 ## Data
-`train.csv `contains seasonal data and electricity prices from multiple countries, with Switzerland's prices as the target variable.
+- `train.csv `contains seasonal data and electricity prices from multiple countries, with Switzerland's prices as the target variable.
+- `test.csv` contains seasonal data and electricity prices from multiple countries, without Switzerland.
+- `results.csv`constains the predicted electricity prices for Switzerland 
 
 ## Implementation
 ### Data Preprocessing
